@@ -381,8 +381,7 @@ volatility -f memory.raw --profile=Win10x64 pslist
 
 ## Решение
 
-```
-python
+```python
 # Скрипт взлома
 from Crypto.PublicKey import RSA
 from Crypto.Util.number import *
@@ -435,9 +434,9 @@ print(long_to_bytes(m))
 ```
 
 ### Примеры хорошего объяснения payload
-<v-pre>
-```
 
+```
+<div v-pre>
 ПЛОХО:
 "Я использовал payload: {{7*7}} и получил 49, значит SSTI"
 
@@ -460,7 +459,7 @@ print(long_to_bytes(m))
 - [258]          → subprocess.Popen (индекс может отличаться)
 - (['cmd'],stdout=-1) → выполнить команду, захватить вывод
 - .communicate()[0] → получить вывод"
-</v-pre>
+</div>
   
 ```
 ### Где публиковать write-up
