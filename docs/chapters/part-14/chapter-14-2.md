@@ -1,3 +1,4 @@
+<div v-pre>
 # Глава 14.2: SSTI — Server-Side Template Injection
 
 ## 🎯 Цели главы
@@ -1073,3 +1074,4 @@ EOF
 - [tplmap GitHub](https://github.com/epinna/tplmap)
 - [PortSwigger SSTI Labs](https://portswigger.net/web-security/server-side-template-injection)
 - [HackTricks SSTI](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection)
+</div>
