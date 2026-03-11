@@ -666,10 +666,6 @@ python script.py -i 1.2.3.4
 python script.py -f ips.txt --vt-key YOUR_KEY
 ```
 
-## Скриншоты
-
-![Пример вывода](screenshots/output.png)
-
 ## Лицензия
 
 MIT License — подробнее в [LICENSE](LICENSE)
